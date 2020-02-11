@@ -12,7 +12,8 @@
 
 <p>
   <strong>User:</strong>
-  <%= @article.user %>
+  <%= link_to @article.user.email, @article.user %>
+
 </p>
 
 <p>
